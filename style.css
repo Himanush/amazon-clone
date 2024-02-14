@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo{
@@ -19,5 +21,31 @@
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
-    width: 100px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+
+.addr-first{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.addr-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.addr-icon{
+    display: flex;
+    align-items: center;
 }
