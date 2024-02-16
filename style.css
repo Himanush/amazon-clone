@@ -31,6 +31,8 @@
 
 .border:hover{
     border: 1.5px solid white;
+    padding: 5.5px;
+    margin: -5.5px;
 }
 
 /** box2 **/
@@ -90,6 +92,11 @@
     color: #0f1111;
 }
 
+.nav-search:hover{
+    border: 2px solid orange;
+    margin: -2px;
+}
+
 /** box4 **/
 
 .nav-country{
@@ -121,8 +128,30 @@
 }
 
 .country-lang i{
-    font-size: smaller;
+    font-size: 10px;
     margin-left: 8px;
     margin-top: 23px;
     color: #cecece;
+}
+
+/**box5**/
+
+span{
+    font-size: 0.6rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**Box6**/
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
