@@ -89,3 +89,40 @@
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
+
+/** box4 **/
+
+.nav-country{
+    display: flex;
+    align-items: center;
+}
+.nav-country img{
+    max-width: 20px;
+    height: 14px;
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 18px;
+}
+
+.country-lang p{
+    max-width: 16px;
+    height: 12px;
+    margin-top: 7px;
+}
+
+.lang{
+    font-weight: bold;
+}
+
+.country-lang{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.country-lang i{
+    font-size: smaller;
+    margin-left: 8px;
+    margin-top: 23px;
+    color: #cecece;
+}
