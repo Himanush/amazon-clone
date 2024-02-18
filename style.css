@@ -4,6 +4,8 @@
     border: border-box;
 }
 
+/* Navbar styling */
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -95,6 +97,7 @@
 .nav-search:hover{
     border: 2px solid orange;
     margin: -2px;
+    /* added margin -2px so that the remaining elements doesn't affect when hovered on search bar*/
 }
 
 /** box4 **/
@@ -155,3 +158,32 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/* Panel styling */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
