@@ -250,7 +250,11 @@ span{
 
 /* footer */
 
-.foot-panel{
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
     background-color: #374758;
     color: white;
     height: 50px;
@@ -258,4 +262,27 @@ span{
     justify-content: center;
     align-items: center;
     font-size: 0.75rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul p{
+    font-weight: bold;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
 }
