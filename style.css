@@ -247,3 +247,15 @@ span{
 .box-content p{
     color: #007185;
 }
+
+/* footer */
+
+.foot-panel{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
